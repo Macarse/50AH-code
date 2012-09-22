@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Copyright (c) 2012 Manning
+  See the file license.txt for copying permission.
+-->
+
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:key="pref_first_preferencescreen_key"
+    android:title="Preferences">
+
+    <PreferenceCategory
+        android:title="User">
+
+        <EditTextPreference
+            android:key="pref_username"
+            android:summary="Username:"
+            android:title="Username"/>
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="Application">
+
+        <Preference
+            android:key="pref_rate"
+            android:summary="Rate the app in the store!"
+            android:title="Rate the app"/>
+
+        <Preference
+            android:key="pref_share"
+            android:summary="Share the app with your friends"
+            android:title="Share it"/>
+
+        <com.manning.androidhacks.hack004.preference.EmailDialog
+            android:dialogIcon="@drawable/ic_launcher"
+            android:dialogTitle="Send Feedback"
+            android:dialogMessage="Do you want to send an email with feedback?"
+            android:key="pref_sendemail_key"
+            android:negativeButtonText="Cancel"
+            android:positiveButtonText="OK"
+            android:summary="Send your feedback by e-mail"
+            android:title="Send Feedback"/>
+
+        <com.manning.androidhacks.hack004.preference.AboutDialog
+            android:dialogIcon="@drawable/ic_launcher"
+            android:dialogTitle="About"
+            android:key="pref_about_key"
+            android:negativeButtonText="@null"
+            android:title="About"/>
+
+    </PreferenceCategory>
+
+</PreferenceScreen>
