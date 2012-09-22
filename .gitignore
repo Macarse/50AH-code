@@ -1,0 +1,4 @@
+*.svn
+hack*/.settings
+hack*/bin
+hack*/gen
