@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Copyright (c) 2012 Manning
+  See the file license.txt for copying permission.
+-->
+<merge xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:onClick="onShowMap"
+        android:text="@string/show_map" />
+
+    <ViewStub
+        android:id="@+id/map_stub"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:inflatedId="@+id/map_view"
+        android:layout="@layout/map" />
+
+</merge>
