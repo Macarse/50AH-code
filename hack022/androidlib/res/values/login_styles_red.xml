@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Copyright (c) 2012 Manning
+  See the file license.txt for copying permission.
+-->
+<resources>
+
+    <style name="Red" />
+
+    <style name="Red.login_background">
+        <item name="android:background">#FF0000</item>
+    </style>
+
+</resources>

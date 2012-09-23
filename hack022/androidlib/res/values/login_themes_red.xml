@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Copyright (c) 2012 Manning
+  See the file license.txt for copying permission.
+-->
+<resources>
+
+    <style name="Theme.Login.Red" parent="@android:style/Theme">
+        <item name="login_background">@style/Red.login_background</item>
+    </style>
+
+</resources>
