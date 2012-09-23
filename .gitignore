@@ -1,4 +1,9 @@
+*.DS_Store
 *.svn
 hack*/.settings
 hack*/bin
 hack*/gen
+hack022/*/.settings
+hack022/*/bin
+hack022/*/gen
+
