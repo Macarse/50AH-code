@@ -1,0 +1,5 @@
+com.manning.androidhacks.hack021.R
+com.manning.androidhacks.hack021.R$attr
+com.manning.androidhacks.hack021.R$drawable
+com.manning.androidhacks.hack021.R$layout
+com.manning.androidhacks.hack021.R$string

@@ -1,0 +1,2 @@
+com.manning.androidhacks.hack021.MainActivity -> com.manning.androidhacks.hack021.MainActivity:
+    void onCreate(android.os.Bundle) -> onCreate
