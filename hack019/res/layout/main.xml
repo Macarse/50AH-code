@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Copyright (c) 2012 Manning
+  See the file license.txt for copying permission.
+-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="@string/hello" />
+
+    <com.test.SlowMeasureView
+        android:id="@+id/slow_measure"
+        android:layout_width="fill_parent"
+        android:layout_height="30dp"
+        android:background="#00ff00"
+        android:text="@string/slow_measure" />
+
+    <com.test.SlowLayoutView
+        android:id="@+id/slow_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="30dp"
+        android:background="#0000ff"
+        android:text="@string/slow_layout" />
+
+    <com.test.SlowDrawView
+        android:id="@+id/slow_draw"
+        android:layout_width="fill_parent"
+        android:layout_height="30dp"
+        android:background="#ff0000"
+        android:text="@string/slow_draw" />
+
+</LinearLayout>

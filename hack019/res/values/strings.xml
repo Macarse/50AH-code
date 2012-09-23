@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Copyright (c) 2012 Manning
+  See the file license.txt for copying permission.
+-->
+<resources>
+    <string name="hello">Hello World, HomeActivity!</string>
+    <string name="app_name">Hack020</string>
+    <string name="slow_draw">Slow draw</string>
+    <string name="slow_measure">Slow measure</string>
+    <string name="slow_layout">Slow layout</string>
+</resources>
