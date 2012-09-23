@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Copyright (c) 2012 Manning
+  See the file license.txt for copying permission.
+-->
+<merge xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <com.manning.androidhacks.hack011.view.LedTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/default_time"
+        android:textColor="#3300ff00"
+        android:textSize="80sp" />
+
+    <com.manning.androidhacks.hack011.view.LedTextView
+        android:id="@+id/main_clock_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:shadowColor="#00ff00"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="10"
+        android:textColor="#00ff00"
+        android:textSize="80sp" />
+
+</merge>
