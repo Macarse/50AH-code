@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Copyright (c) 2012 Manning
+  See the file license.txt for copying permission.
+-->
+<resources>
+
+    <string name="app_name">Hack009</string>
+    <string name="date">Date:</string>
+    <string name="picked_date_format">Picked date: %1$d/%2$d/%3$d</string>
+
+</resources>
