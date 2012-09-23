@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Copyright (c) 2012 Manning
+  See the file license.txt for copying permission.
+-->
+<resources>
+
+    <string name="app_name">Hack017</string>
+
+    <!-- ACCOUNT CREATE DIALOG -->
+    <string name="account_create_steps" formatted="false">&lt;b&gt;STEP %02d of %02d:&lt;br/&gt;&lt;/b&gt;%s</string>
+    <string name="account_create_next">NEXT</string>
+    <string name="account_create_create_account">Create &lt;b&gt;Account&lt;/b&gt;</string>
+    <string name="account_create_full_name_title">FULL NAME</string>
+    <string name="account_create_full_name_hint">Full name</string>
+    <string name="account_create_email_title">E-MAIL</string>
+    <string name="account_create_email_hint">E-Mail</string>
+    <string name="account_create_password_title">PASSWORD</string>
+    <string name="account_create_password_hint">Password</string>
+    <string name="account_create_gender_title">GENDER</string>
+    <string name="account_create_sex_spinner_prompt">Choose your gender</string>
+    <string name="account_create_city_title">CITY</string>
+    <string name="account_create_city_hint">City</string>
+    <string name="account_create_country_title">COUNTRY</string>
+    <string name="account_create_country_spinner_prompt">Choose your country</string>
+    <string name="account_create_zip_title">POSTAL CODE</string>
+    <string name="account_create_zip_hint">Postal Code</string>
+
+</resources>
