@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Copyright (c) 2012 Manning
+  See the file license.txt for copying permission.
+-->
+<resources>
+    <string name="text1"><![CDATA[Visit <a href=\"http://manning.com/\">Manning home page</a>]]></string>
+    <string name="text2">Hello World, HomeActivity!</string>
+    <string name="app_name">Hack010</string>
+</resources>
