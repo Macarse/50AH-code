@@ -1,0 +1,8 @@
+<!--
+  Copyright (c) 2012 Manning
+  See the file license.txt for copying permission.
+-->
+<resources>
+    <string name="app_name">Hack016</string>
+    <string name="activity_main_show_toast">Show toast</string>
+</resources>

@@ -1,0 +1,9 @@
+<!--
+  Copyright (c) 2012 Manning
+  See the file license.txt for copying permission.
+-->
+<resources>
+
+    <style name="AppTheme" parent="android:Theme.Light" />
+
+</resources>
