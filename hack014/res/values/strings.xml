@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Copyright (c) 2012 Manning
+  See the file license.txt for copying permission.
+-->
+<resources>
+    <string name="app_name">Hack014</string>
+    <string name="par_01">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non metus et ligula dignissim imperdiet vitae nec diam. Fusce sit amet lorem quam, feugiat fermentum odio. Nam ante eros, luctus a laoreet a, placerat non lectus. Phasellus nec dui vel tellus imperdiet facilisis. In eu leo neque, at auctor lacus. Ut et sapien tellus, eget suscipit ante. Suspendisse nec arcu nisi, a hendrerit tortor. Pellentesque ullamcorper, lacus in congue feugiat, velit tellus congue turpis, et volutpat sapien nibh vitae ante. Mauris eget erat id elit rutrum tempor quis sed nibh. Donec tristique, leo eu placerat bibendum, ante turpis pellentesque nisl, non commodo nibh enim sit amet felis.</string>
+    <string name="par_02">Quisque ultrices est justo, non aliquet libero. Quisque vel enim eget tellus rhoncus condimentum sed non metus. Aenean et venenatis lorem. Sed ultricies felis eu ligula varius ac fermentum sapien consectetur. Integer nisl lorem, tincidunt elementum pharetra in, porttitor sed erat. Etiam ante risus, gravida sed ultricies vel, accumsan eu metus. Donec interdum, mi eget tincidunt adipiscing, purus lorem blandit elit, commodo venenatis turpis arcu vel nisi. Aliquam aliquam nisl non sem congue blandit. Quisque ultrices est justo, non aliquet libero. Quisque vel enim eget tellus rhoncus condimentum sed non metus. Aenean et venenatis lorem. Sed ultricies felis eu ligula varius ac fermentum sapien consectetur. Integer nisl lorem, tincidunt elementum pharetra in, porttitor sed erat. Etiam ante risus, gravida sed ultricies vel, accumsan eu metus. Donec interdum, mi eget tincidunt adipiscing, purus lorem blandit elit, commodo venenatis turpis arcu vel nisi. Aliquam aliquam nisl non sem congue blandit.</string>
+</resources>
