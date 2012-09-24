@@ -1,0 +1,24 @@
+$def with (todos, form)
+
+<table>
+    <tr>
+        <th>What to do ?</th>
+        <th></th>
+    </tr>
+$for todo in todos:
+    <tr>
+        <td>$todo.title</td>
+        <td>
+            <form action="/del/$todo.id" method="post">
+                <input type="submit" value="Delete"/>
+            </form>
+        </td>
+    </tr>    
+</table>  
+
+<form action="" method="post">
+$:form.render()
+</form>
+
+<a href="/logout">Logout</a>
+

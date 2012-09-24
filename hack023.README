@@ -1,0 +1,34 @@
+HACK 023
+========
+
+To use this hack you will need to follow some steps described below.
+
+
+Server setup
+============
+The server is coded in python using web.py
+
+Depending on your platform you will need to:
+
+ - Install python (http://python.org/)
+ - Install web.py (http://webpy.org/install)
+
+After the installation you can use:
+
+ python todo.py
+
+to run the server. You should see this:
+
+ user@pc:hack023-server$ python todo.py
+ http://0.0.0.0:8080/
+
+
+Pointing the app to the server
+==============================
+Inside the android application the url of the server is hardcoded inside the com.manning.androidhacks.hack023.api.AndroidHacksUrlFactory class.
+
+Replace:
+
+  private static String URL_BASE = "http://192.168.1.101:8080/service/";
+
+with your server ip.
