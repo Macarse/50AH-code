@@ -1,0 +1,11 @@
+<!--
+  Copyright (c) 2012 Manning
+  See the file license.txt for copying permission.
+-->
+<resources>
+
+    <string name="app_name">Hack037</string>
+    <string name="activity_main_loop1">Save loop1.mp3</string>
+    <string name="activity_main_loop2">Save loop2.mp3</string>
+
+</resources>
