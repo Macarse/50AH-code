@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="main_add_poi">Add poi</string>
+    <string name="main_search">Search</string>
+    <string name="main_latitude">Latitude</string>
+    <string name="main_longitude">Longitude</string>
+    <string name="add_poi_title">Title</string>
+    <string name="add_poi_title_hint">Poi name</string>
+    <string name="add_poi_latitude">Latitude</string>
+    <string name="add_poi_latitude_hint">Latitude</string>
+    <string name="add_poi_longitude">Longitude</string>
+    <string name="add_poi_longitude_hint">Longitude</string>
+    <string name="add_poi_add">Add</string>
+    <string name="app_name">Hack042</string>
+
+</resources>

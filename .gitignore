@@ -3,6 +3,7 @@
 hack*/.settings
 hack*/bin
 hack*/gen
+hack*/obj
 hack*/target
 hack022/*/.settings
 hack022/*/bin

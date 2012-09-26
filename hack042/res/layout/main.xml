@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <LinearLayout
+        android:id="@+id/main_search_container"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:orientation="horizontal" >
+
+        <EditText
+            android:id="@+id/main_latitude"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.35"
+            android:hint="@string/main_latitude" />
+
+        <EditText
+            android:id="@+id/main_longitude"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.35"
+            android:hint="@string/main_longitude" />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.3"
+            android:onClick="onSearchClick"
+            android:text="@string/main_search" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/main_add_poi"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:onClick="onAddPoi"
+        android:text="@string/main_add_poi" />
+
+    <ListView
+        android:id="@+id/main_listview"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_above="@id/main_add_poi"
+        android:layout_below="@id/main_search_container" />
+
+</RelativeLayout>
