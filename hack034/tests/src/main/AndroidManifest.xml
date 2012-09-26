@@ -1,0 +1,15 @@
+<manifest package="com.manning.androidhacks.hack050.tests" xmlns:android="http://schemas.android.com/apk/res/android">
+    <uses-sdk android:minSdkVersion="4"></uses-sdk>
+    <application>
+        <uses-library android:name="android.test.runner"></uses-library>
+        <activity android:name=".MainActivity" android:label="@string/app_name">
+           <intent-filter>
+               <action android:name="android.intent.action.MAIN"/>
+               <category android:name="android.intent.category.LAUNCHER"/>
+           </intent-filter>
+        </activity>
+    </application>
+    <instrumentation 
+    android:label="Tests" android:targetPackage="com.manning.androidhacks.hack050" android:name="android.test.InstrumentationTestRunner">
+</instrumentation>
+</manifest>

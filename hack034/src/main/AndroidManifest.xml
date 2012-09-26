@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Copyright (c) 2012 Manning
+  See the file license.txt for copying permission.
+-->
+
+<manifest 
+android:versionName="0.1" android:versionCode="1" package="com.manning.androidhacks.hack034" xmlns:android="http://schemas.android.com/apk/res/android">
+    <uses-sdk android:minSdkVersion="4"></uses-sdk>
+    <application android:icon="@drawable/android:star_big_on" android:label="@string/app_name">
+        <activity android:label="@string/app_name" android:name=".ScalaActivity"/>
+
+        <activity android:label="@string/app_name" android:name=".MainActivityJava">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"></action>
+                <category android:name="android.intent.category.LAUNCHER"></category>
+            </intent-filter>
+        </activity>
+
+    </application>
+</manifest>
