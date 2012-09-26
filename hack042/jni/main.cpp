@@ -1,3 +1,7 @@
+#-------------------------------------------------------------------------------
+# Copyright (c) 2012 Manning
+# See the file license.txt for copying permission.
+#-------------------------------------------------------------------------------
 #include <jni.h>
 #include <sqlite3.h>
 #include <assert.h>

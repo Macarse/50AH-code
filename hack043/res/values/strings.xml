@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Copyright (c) 2012 Manning
+  See the file license.txt for copying permission.
+-->
+<resources>
+
+    <string name="app_name">Hack043</string>
+    <string name="main_no_batch">No Batch</string>
+    <string name="main_batch">Batch</string>
+    <string name="main_batch_plus_sql_content_provider">SQLContentProvider</string>
+    <string name="list_update">Update</string>
+
+</resources>

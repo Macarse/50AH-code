@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Copyright (c) 2012 Manning
+  See the file license.txt for copying permission.
+-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center"
+    android:orientation="horizontal" >
+
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:onClick="onNoBatchClick"
+        android:singleLine="true"
+        android:text="@string/main_no_batch"
+        android:textSize="8sp" />
+
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:onClick="onBatchClick"
+        android:singleLine="true"
+        android:text="@string/main_batch"
+        android:textSize="8sp" />
+
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:onClick="onSQLContentProviderClick"
+        android:singleLine="true"
+        android:text="@string/main_batch_plus_sql_content_provider"
+        android:textSize="8sp" />
+
+</LinearLayout>

@@ -1,3 +1,7 @@
+#-------------------------------------------------------------------------------
+# Copyright (c) 2012 Manning
+# See the file license.txt for copying permission.
+#-------------------------------------------------------------------------------
 LOCAL_PATH := $(call my-dir)
 
 include $(CLEAR_VARS)
