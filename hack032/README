@@ -1,0 +1,13 @@
+In this particular case I left the apk here.
+
+To compile this app you will need:
+
+ * android SDK
+ * android NDK
+ * Cocos2d-x
+
+Compiling a cocos2d-x application requires understanding how android mk files work.
+The documentation is limited:
+
+ * http://hashspeaks.wordpress.com/2010/01/27/android-mk-documentation/
+ * http://groups.google.com/group/android-platform/browse_thread/thread/4f59503f4564e902?pli=1

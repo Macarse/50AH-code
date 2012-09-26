@@ -7,4 +7,7 @@ hack*/target
 hack022/*/.settings
 hack022/*/bin
 hack022/*/gen
+hack032/proj.android/bin
+hack032/proj.android/gen
+hack032/proj.android/obj
 
