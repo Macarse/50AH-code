@@ -11,3 +11,5 @@ hack032/proj.android/bin
 hack032/proj.android/gen
 hack032/proj.android/obj
 hack033/jni/tmp
+hack038/*/bin
+hack038/*/gen
