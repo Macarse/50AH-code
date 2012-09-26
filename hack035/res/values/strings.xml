@@ -1,0 +1,13 @@
+<!--
+  Copyright (c) 2012 Manning
+  See the file license.txt for copying permission.
+-->
+<resources>
+
+    <string name="app_name">Hack035</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="activity_main_take_picture">Take picture</string>
+    <string name="activity_main_pick_picture">Pick picture</string>
+    <string name="activity_main_pick_both">Take or pick picture</string>
+
+</resources>
