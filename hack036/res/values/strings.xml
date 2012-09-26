@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Copyright (c) 2012 Manning
+  See the file license.txt for copying permission.
+-->
+<resources>
+
+    <string name="app_name">Hack036</string>
+    <string name="mail_support_feedback_to">feed@back.com</string>
+    <string name="mail_support_feedback_subject">[50 Android Hacks Feedback]</string>
+    <string name="pref_sendemail_title">Send feedback!</string>
+
+</resources>
