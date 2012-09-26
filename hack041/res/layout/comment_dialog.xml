@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Copyright (c) 2012 Manning
+  See the file license.txt for copying permission.
+-->
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp" >
+
+        <EditText
+            android:id="@+id/name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Your Name"
+            android:imeOptions="actionNext"
+            android:inputType="text|textCapWords"
+            android:singleLine="true" />
+
+        <EditText
+            android:id="@+id/comment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left|top"
+            android:hint="Comments"
+            android:imeOptions="actionDone"
+            android:inputType="text|textMultiLine|textCapSentences|textAutoCorrect"
+            android:lines="3" />
+    </LinearLayout>
+
+</ScrollView>
