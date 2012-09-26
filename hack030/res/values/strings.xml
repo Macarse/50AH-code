@@ -1,0 +1,10 @@
+<!--
+  Copyright (c) 2012 Manning
+  See the file license.txt for copying permission.
+-->
+<resources>
+
+    <string name="app_name">Hack030</string>
+    <string name="activity_main_toast_fmt">Picked Country: %s</string>
+    <string name="activity_main_add_selection">Pick Country</string>
+</resources>
