@@ -29,7 +29,6 @@ esac
 done
 
 # paths
-NDK_ROOT="/Users/macarse/Documents/android-ndk-r8b"
 if [ -z "${NDK_ROOT+aaa}" ];then
 echo "please define NDK_ROOT"
 exit 1

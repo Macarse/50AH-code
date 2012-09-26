@@ -24,6 +24,7 @@ THE SOFTWARE.
 package org.cocos2dx.lib;
 
 import android.content.Context;
+import android.graphics.PixelFormat;
 import android.opengl.GLSurfaceView;
 import android.os.Handler;
 import android.os.Message;
@@ -150,7 +151,10 @@ public class Cocos2dxGLSurfaceView extends GLSurfaceView {
     	setRenderer(mRenderer);
     }
 
-    protected void initView() {   
+    protected void initView() {
+        setEGLConfigChooser(8, 8, 8, 8, 16, 0);
+        setZOrderOnTop(true);
+        getHolder().setFormat (PixelFormat.TRANSLUCENT);
         setFocusableInTouchMode(true);
         
         textInputWraper = new TextInputWraper(this);

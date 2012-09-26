@@ -36,7 +36,7 @@
     <FrameLayout
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
-        android:layout_below="@id/separator" >
+        android:layout_below="@id/separator">
 
         <org.cocos2dx.lib.Cocos2dxEditText
             android:id="@+id/game_edittext"
@@ -47,7 +47,7 @@
         <org.cocos2dx.lib.Cocos2dxGLSurfaceView
             android:id="@+id/game_gl_surfaceview"
             android:layout_width="fill_parent"
-            android:layout_height="fill_parent" />
+            android:layout_height="fill_parent"/>
     </FrameLayout>
 
 </RelativeLayout>

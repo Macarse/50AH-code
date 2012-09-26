@@ -39,6 +39,7 @@ public class Cocos2dxRenderer implements GLSurfaceView.Renderer {
     public void onSurfaceCreated(GL10 gl, EGLConfig config) { 
     	nativeInit(screenWidth, screenHeight); 
     	last = System.nanoTime();
+    	gl.glClearColor(0, 0, 0, 0);
     }
     
     public void setScreenWidthAndHeight(int w, int h){
@@ -56,7 +57,7 @@ public class Cocos2dxRenderer implements GLSurfaceView.Renderer {
     	
     	// should render a frame when onDrawFrame() is called
     	// or there is a "ghost"
-    	nativeRender();   	
+    	nativeRender();
    	
     	// fps controlling
     	if (interval < animationInterval){ 
