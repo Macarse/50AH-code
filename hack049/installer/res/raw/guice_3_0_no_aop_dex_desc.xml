@@ -1,0 +1,4 @@
+<permissions>
+    <library name="guice.3.no.aop"
+            file="/data/data/com.nasatrainedmonkeys.roboinstaller/files/guice_3_0_no_aop_dex.jar"/>
+</permissions>

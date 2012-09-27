@@ -1,0 +1,4 @@
+<permissions>
+    <library name="android.support.v4"
+            file="/data/data/com.nasatrainedmonkeys.roboinstaller/files/android_support_v4_dex.jar" />
+</permissions>

@@ -1,0 +1,4 @@
+<permissions>
+    <library name="javax.inject"
+            file="/data/data/com.nasatrainedmonkeys.roboinstaller/files/javax_inject_dex.jar"/>
+</permissions>

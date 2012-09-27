@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+        >
+
+    <roboguice.calculator.view.TickerTapeView
+            android:id="@+id/tape"
+            android:maxLines="3"
+            android:layout_height="100dp"
+            android:background="@android:color/white"
+            android:layout_width="fill_parent"
+            android:layout_margin="10dp"      
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:textColor="@android:color/black"
+            android:textSize="24dp"
+            />
+
+    <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            >
+        
+        <Button 
+            style="@style/digit_button"
+            android:id="@+id/one"
+            android:text="1"
+            android:onClick="onDigitClicked"
+            />
+
+        <Button
+            style="@style/digit_button"
+            android:id="@+id/two"
+            android:text="2"
+            android:onClick="onDigitClicked"
+            android:layout_toRightOf="@id/one"
+            />
+
+        <Button
+            style="@style/digit_button"
+            android:id="@+id/three"
+            android:text="3"
+            android:onClick="onDigitClicked"
+            android:layout_toRightOf="@id/two"
+            />
+
+        <Button
+            style="@style/digit_button"
+            android:id="@+id/plus"
+            android:text="+"
+            android:onClick="onOperationClicked"
+            android:layout_toRightOf="@id/three"
+            />
+
+        <Button
+            style="@style/digit_button"
+            android:id="@+id/divide"
+            android:text="/"
+            android:onClick="onOperationClicked"
+            android:layout_alignTop="@id/plus"
+            android:layout_toRightOf="@id/plus"
+            />
+
+
+
+
+        <Button
+            style="@style/digit_button"
+            android:id="@+id/four"
+            android:text="4"
+            android:onClick="onDigitClicked"
+            android:layout_below="@id/one"
+            />
+
+        <Button
+            style="@style/digit_button"
+            android:id="@+id/five"
+            android:text="5"
+            android:onClick="onDigitClicked"
+            android:layout_toRightOf="@id/four"
+            android:layout_alignTop="@id/four"
+            />
+
+        <Button
+            style="@style/digit_button"
+            android:id="@+id/six"
+            android:text="6"
+            android:onClick="onDigitClicked"
+            android:layout_toRightOf="@id/five"
+            android:layout_alignTop="@id/five"
+            />
+
+        <Button
+            style="@style/digit_button"
+            android:id="@+id/minus"
+            android:text="-"
+            android:onClick="onOperationClicked"
+            android:layout_alignTop="@id/six"
+            android:layout_toRightOf="@id/six"
+            />
+
+        <Button
+            style="@style/digit_button"
+            android:id="@+id/multiply"
+            android:text="*"
+            android:onClick="onOperationClicked"
+            android:layout_alignTop="@id/minus"
+            android:layout_toRightOf="@id/minus"
+            />
+
+
+
+
+
+        <Button
+            style="@style/digit_button"
+            android:id="@+id/seven"
+            android:text="7"
+            android:onClick="onDigitClicked"
+            android:layout_below="@id/four"
+            />
+
+        <Button
+            style="@style/digit_button"
+            android:id="@+id/eight"
+            android:text="8"
+            android:onClick="onDigitClicked"
+            android:layout_toRightOf="@id/seven"
+            android:layout_alignTop="@id/seven"
+            />
+
+        <Button
+            style="@style/digit_button"
+            android:id="@+id/nine"
+            android:text="9"
+            android:onClick="onDigitClicked"
+            android:layout_toRightOf="@id/eight"
+            android:layout_alignTop="@id/eight"
+            />
+
+        <Button
+            style="@style/digit_button"
+            android:id="@+id/enter"
+            android:text="enter"
+            android:onClick="onOperationClicked"
+            android:layout_alignTop="@id/nine"
+            android:layout_toRightOf="@id/nine"
+            />
+
+        <Button
+            style="@style/digit_button"
+            android:id="@+id/delete"
+            android:text="del"
+            android:onClick="onOperationClicked"
+            android:layout_alignTop="@id/enter"
+            android:layout_toRightOf="@id/enter"
+            />
+
+
+
+        
+        
+        <Button
+            style="@style/digit_button"
+            android:id="@+id/zero"
+            android:text="0"
+            android:onClick="onDigitClicked"
+            android:layout_below="@id/seven"
+            />
+
+        <Button
+            style="@style/digit_button"
+            android:id="@+id/dot"
+            android:text="."
+            android:onClick="onDigitClicked"
+            android:layout_alignTop="@id/zero"
+            android:layout_toRightOf="@id/zero"
+            />
+
+
+    </RelativeLayout>
+
+
+
+
+</LinearLayout>

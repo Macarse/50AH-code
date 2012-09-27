@@ -1,0 +1,4 @@
+<permissions>
+    <library name="roboguice.2_0"
+            file="/data/data/com.nasatrainedmonkeys.roboinstaller/files/roboguice_2_0_dex.jar"/>
+</permissions>
