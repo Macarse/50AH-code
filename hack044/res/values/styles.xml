@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Copyright (c) 2012 Manning
+  See the file license.txt for copying permission.
+-->
+<resources>
+
+    <style name="ActionBar" parent="@android:style/Widget.Holo.ActionBar" />
+
+    <style name="ActionBar.Dark" parent="@style/ActionBar">
+        <item name="android:background">#000000</item>
+    </style>
+
+</resources>
