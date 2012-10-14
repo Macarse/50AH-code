@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <dimen name="photo_width">500dp</dimen>
+    <dimen name="photo_height">300dp</dimen>
+
+</resources>

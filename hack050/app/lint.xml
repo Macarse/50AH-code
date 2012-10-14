@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lint>
+
+    <!-- Ignore false positive for icons -->
+    <issue id="IconDensities">
+        <ignore path="res/drawable-hdpi" />
+    </issue>
+
+    <!-- Ignore deliberate error with String.isEmpty() API -->
+    <issue id="NewApi">
+        <ignore path="src/com/example/awesomedogs/ui/DogDetailActivity.java" />
+    </issue>
+
+</lint>

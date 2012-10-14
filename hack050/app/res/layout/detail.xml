@@ -1,0 +1,53 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent">
+
+    <RelativeLayout
+      android:layout_width="fill_parent">
+
+        <ImageView
+          android:id="@+id/photo"
+          android:layout_width="fill_parent"
+          android:layout_height="@dimen/photo_height"
+          android:layout_alignParentTop="true"
+          android:scaleType="centerCrop"
+          android:contentDescription="@string/image_alt" />
+
+        <TextView
+          android:id="@+id/name"
+          android:layout_width="fill_parent"
+          android:layout_marginTop="8dp"
+          android:layout_marginLeft="16dp"
+          android:layout_marginRight="16dp"
+          android:layout_below="@id/photo"
+          android:singleLine="true"
+          android:ellipsize="end"
+          android:textAppearance="?android:textAppearanceLarge" />
+
+        <TextView
+          android:id="@+id/breed"
+          android:layout_below="@id/name"
+          android:layout_alignLeft="@id/name" />
+
+        <TextView
+          android:id="@+id/age"
+          android:layout_alignRight="@id/name"
+          android:layout_alignBaseline="@id/breed" />
+
+        <TextView
+          android:id="@+id/country"
+          android:layout_below="@id/breed"
+          android:layout_alignLeft="@id/breed"
+          android:drawablePadding="4dp" />
+
+        <TextView
+          android:id="@+id/description"
+          android:layout_marginTop="16dp"
+          android:layout_below="@id/country"
+          android:layout_alignLeft="@id/country"
+          android:layout_alignRight="@id/age"
+          android:paddingBottom="16dp" />
+
+    </RelativeLayout>
+
+</ScrollView>

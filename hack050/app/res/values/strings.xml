@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Awesome Dogs</string>
+
+    <string name="image_alt">Large photo of the dog</string>
+    <string name="age_template">%1$d years old</string>
+
+    <string name="no_description">No description for this dog.</string>
+    <string name="lorem_ipsum">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam mi tortor, tincidunt ut
+        vehicula non, hendrerit sed quam. Vestibulum posuere feugiat varius. Nullam vestibulum dignissim risus, id
+        vulputate purus dapibus at. Donec varius magna eu odio aliquet aliquet. Vivamus nec leo ut urna scelerisque
+        dictum eget vitae eros. Proin condimentum tristique sodales. Maecenas malesuada sapien quis ligula convallis
+        ullamcorper.\n\nSuspendisse vestibulum vestibulum arcu, eu fringilla est hendrerit sit amet. Nulla tempus, sem
+        at vulputate auctor, mi ipsum volutpat lectus, et posuere nunc tellus et nulla. Etiam hendrerit porttitor dolor,
+        vel dapibus felis ultrices non. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac
+        turpis egestas. Sed ornare sollicitudin velit ac consequat. Cras vitae arcu non orci accumsan condimentum. Etiam
+        eget tortor justo, non porttitor ante. Etiam a sem a tellus egestas consectetur venenatis non nibh. Cras
+        lacinia, sapien in dignissim feugiat, nisi nulla iaculis massa, ut viverra tortor velit at odio. Duis ut dui
+        tellus.</string>
+
+    <string name="chiva_desc">Chiva likes to sleep and be fluffy.</string>
+    <string name="mac_desc">Mac likes running around in fields.</string>
+    <string name="bruno_desc">Bruno loves playing with his frisbee.</string>
+
+    <string name="country_de">Germany</string>
+    <string name="country_sco">Scotland</string>
+
+</resources>
