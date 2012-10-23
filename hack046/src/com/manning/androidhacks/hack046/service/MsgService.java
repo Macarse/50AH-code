@@ -1,3 +1,7 @@
+/*******************************************************************************
+ * Copyright (c) 2012 Manning
+ * See the file license.txt for copying permission.
+ ******************************************************************************/
 package com.manning.androidhacks.hack046.service;
 
 import com.manning.androidhacks.hack046.helper.NotificationHelper;
