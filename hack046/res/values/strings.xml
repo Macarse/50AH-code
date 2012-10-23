@@ -5,7 +5,16 @@
 -->
 <resources>
 
-    <string name="hello">Hello World, MainActivity!</string>
     <string name="app_name">Hack046</string>
+    <string name="activity_main_receive_msg">Receive msg</string>
+    <string name="activity_msg_from">From: Someone</string>
+    <string name="activity_msg_body">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut eu fermentum metus. Quisque facilisis rutrum massa, vel sodales ligula lobortis sed. Pellentesque vulputate tortor non quam venenatis et tristique arcu elementum. Aliquam massa felis, ultricies vel sagittis ac, sodales ac felis. Aenean sollicitudin commodo nibh nec tempor. Curabitur vulputate laoreet sem, ut consequat nunc cursus eu. Aliquam bibendum, enim nec sollicitudin rhoncus, libero est feugiat tellus, sed laoreet lectus neque et nulla. Quisque gravida porttitor lacinia. Integer sit amet odio eu nulla sollicitudin auctor. Duis suscipit lacus in augue pellentesque nec convallis eros tempor. Sed lacinia magna eget lorem fringilla sodales. Phasellus condimentum, turpis at sollicitudin ultrices, nunc lectus laoreet tellus, in dictum nisi est eget tortor. Suspendisse vehicula purus condimentum massa interdum venenatis in at justo. Donec rhoncus faucibus tincidunt.\nMorbi tincidunt molestie iaculis. Proin vestibulum porttitor justo vel sodales. Fusce dui arcu, sodales a mollis quis, congue ac nisl. Phasellus tempor ornare risus, sed mattis nunc sollicitudin et. Fusce quam magna, congue et sodales non, ornare at dolor. Nunc fringilla, ligula et gravida ultricies, mauris nulla lacinia turpis, vitae tempor quam nisi non risus. Ut tempus tortor quis est semper bibendum. Phasellus consequat feugiat est at commodo. Cras id nibh metus, nec hendrerit diam. Donec aliquam, turpis laoreet lobortis feugiat, sapien leo elementum nunc, eu ultricies est ligula nec ante. Aenean eget lorem felis, eu tincidunt lectus. Sed placerat enim non dolor placerat convallis. Praesent sed erat purus, eget fringilla lorem. Fusce id pulvinar quam. Sed sodales accumsan dui in viverra. Etiam lobortis sodales tortor eu porttitor.</string>
+    <string name="activity_msg_button_delete">Delete</string>
+    <string name="activity_msg_button_reply">Reply</string>
+    <string name="activity_reply_to">To: Someone</string>
+    <string name="activity_reply_button_discard">Discard</string>
+    <string name="activity_reply_button_send">Send</string>
+    <string name="activity_reply_hint">Write your msg here</string>
+    
 
 </resources>

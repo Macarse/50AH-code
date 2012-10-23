@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Copyright (c) 2012 Manning
+  See the file license.txt for copying permission.
+-->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <TextView
+        android:id="@+id/activity_reply_to"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="20dp"
+        android:text="@string/activity_reply_to" />
+
+    <LinearLayout
+        android:id="@+id/activity_reply_action_buttons"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal" >
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="onDiscardClick"
+            android:text="@string/activity_reply_button_discard" />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="onSendClick"
+            android:text="@string/activity_reply_button_send" />
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/activity_reply_msg"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_above="@id/activity_reply_action_buttons"
+        android:layout_below="@id/activity_reply_to"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="20dp"
+        android:hint="@string/activity_reply_hint"
+        android:inputType="text" />
+
+</RelativeLayout>

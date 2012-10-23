@@ -3,15 +3,16 @@
   Copyright (c) 2012 Manning
   See the file license.txt for copying permission.
 -->
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="fill_parent"
-    android:layout_height="fill_parent"
-    android:orientation="vertical" >
+    android:layout_height="fill_parent" >
 
-    <TextView
-        android:id="@+id/times_opened"
-        android:layout_width="fill_parent"
+    <Button
+        android:id="@+id/activity_main_receive_msg"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/hello" />
+        android:layout_centerInParent="true"
+        android:onClick="onReceiveMsgClick"
+        android:text="@string/activity_main_receive_msg" />
 
-</LinearLayout>
+</RelativeLayout>
