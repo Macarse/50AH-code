@@ -5,8 +5,8 @@
 -->
 <resources>
 
-    <string name="hello">Hello World!</string>
     <string name="app_name">Hack002</string>
+    <string name="show_map">Show map</string>
     <string name="footer_text">2012 - NTM</string>
 
 </resources>

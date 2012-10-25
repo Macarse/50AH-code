@@ -6,12 +6,19 @@
     android:layout_width="fill_parent"
     android:layout_height="fill_parent" >
 
-    <TextView
+    <Button
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:layout_centerInParent="true"
-        android:gravity="center"
-        android:text="@string/hello" />
+        android:layout_gravity="center_vertical"
+        android:onClick="onShowMap"
+        android:text="@string/show_map" />
+
+    <ViewStub
+        android:id="@+id/map_stub"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:inflatedId="@+id/map_view"
+        android:layout="@layout/map" />
 
     <include
         android:layout_width="fill_parent"
