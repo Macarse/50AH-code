@@ -27,6 +27,7 @@ public class ReplyActivity extends Activity {
 
   @Override
   protected void onResume() {
+    super.onResume();
     NotificationHelper.dismissMsgNotification(this);
   }
 

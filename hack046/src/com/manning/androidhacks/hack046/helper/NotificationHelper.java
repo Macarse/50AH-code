@@ -28,15 +28,13 @@ public class NotificationHelper {
         .setContentText("content...")
         .setContentIntent(getPendingIntent(ctx));
 
-    builder.addAction(
-        android.R.drawable.ic_menu_send,
+    builder.addAction(android.R.drawable.ic_menu_send,
         ctx.getString(R.string.activity_msg_button_reply),
         getReplyPendingIntent(ctx));
 
     builder.addAction(android.R.drawable.ic_menu_delete,
         ctx.getString(R.string.activity_msg_button_delete),
         getDeletePendingIntent(ctx));
-    
 
     mgr.notify(R.id.activity_main_receive_msg, builder.build());
   }
@@ -65,6 +63,6 @@ public class NotificationHelper {
     mgr = (NotificationManager) ctx
         .getSystemService(Context.NOTIFICATION_SERVICE);
     mgr.cancel(R.id.activity_main_receive_msg);
-
   }
+
 }

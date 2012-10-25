@@ -22,6 +22,7 @@ public class MsgActivity extends Activity {
 
   @Override
   protected void onResume() {
+    super.onResume();
     NotificationHelper.dismissMsgNotification(this);
   }
 
