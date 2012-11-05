@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Copyright (c) 2012 Manning
+  See the file license.txt for copying permission.
+-->
+
+<resources>
+    <declare-styleable name="CascadeLayout">
+        <attr name="horizontal_spacing" format="dimension" />
+        <attr name="vertical_spacing" format="dimension" />
+    </declare-styleable>
+
+    <declare-styleable name="CascadeLayout_LayoutParams">
+        <attr name="layout_vertical_spacing" format="dimension" />
+    </declare-styleable>
+</resources>

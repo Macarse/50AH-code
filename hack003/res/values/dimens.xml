@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Copyright (c) 2012 Manning
+  See the file license.txt for copying permission.
+-->
+
+<resources>
+    <dimen name="cascade_horizontal_spacing">10dp</dimen>
+    <dimen name="cascade_vertical_spacing">10dp</dimen>
+</resources>
