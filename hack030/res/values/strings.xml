@@ -5,6 +5,6 @@
 <resources>
 
     <string name="app_name">Hack030</string>
-    <string name="activity_main_toast_fmt">Picked Country: %s</string>
+    <string name="activity_main_toast_fmt">Chosen country: %s</string>
     <string name="activity_main_add_selection">Pick Country</string>
 </resources>
