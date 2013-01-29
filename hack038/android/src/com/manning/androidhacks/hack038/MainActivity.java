@@ -30,7 +30,7 @@ public class MainActivity extends SherlockActivity {
   @Override
   public boolean onCreateOptionsMenu(Menu menu) {
     mRefreshMenu = menu.add(MENU_REFRESH, MENU_REFRESH, MENU_REFRESH,
-        "Rrefresh");
+        "Refresh");
     mRefreshMenu.setIcon(R.drawable.menu_reload);
     mRefreshMenu.setShowAsAction(MenuItem.SHOW_AS_ACTION_ALWAYS);
 
