@@ -4,7 +4,6 @@
  ******************************************************************************/
 package com.manning.androidhacks.hack046.helper;
 
-import com.jakewharton.notificationcompat2.NotificationCompat2;
 import com.manning.androidhacks.hack046.service.MsgService;
 import com.manning.androidhacks.hack046.MsgActivity;
 import com.manning.androidhacks.hack046.R;
@@ -14,6 +13,7 @@ import android.app.NotificationManager;
 import android.app.PendingIntent;
 import android.content.Context;
 import android.content.Intent;
+import android.support.v4.app.NotificationCompat;
 
 public class NotificationHelper {
 
@@ -22,7 +22,7 @@ public class NotificationHelper {
     mgr = (NotificationManager) ctx
         .getSystemService(Context.NOTIFICATION_SERVICE);
 
-    NotificationCompat2.Builder builder = new NotificationCompat2.Builder(
+    NotificationCompat.Builder builder = new NotificationCompat.Builder(
         ctx).setSmallIcon(android.R.drawable.sym_def_app_icon)
         .setTicker("New msg!").setContentTitle("This is the msg title")
         .setContentText("content...")
