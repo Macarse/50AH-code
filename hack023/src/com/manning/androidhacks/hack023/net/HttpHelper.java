@@ -6,6 +6,8 @@ package com.manning.androidhacks.hack023.net;
 
 import java.io.IOException;
 import java.io.UnsupportedEncodingException;
+import java.net.URI;
+import java.net.URISyntaxException;
 
 import org.apache.http.HttpVersion;
 import org.apache.http.client.ClientProtocolException;
@@ -99,8 +101,11 @@ public class HttpHelper {
       String contentType, String requestBodyString,
       ResponseHandler<String> responseHandler)
       throws UnsupportedEncodingException, IOException,
-      ClientProtocolException {
+      ClientProtocolException, URISyntaxException {
     String responseString;
+
+    // url encoding enhancement
+    url = new URI(null, url, null).toASCIIString();
 
     if (POST_METHOD.equals(method)) {
       responseString = doPost(url, contentType, requestBodyString,
